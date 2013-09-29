@@ -1,0 +1,29 @@
+#progress_bar_fill {
+    background-image: url("../images/progress_bar_highlight.png");
+    height: 28px;
+    margin: 0 5px;
+    position: absolute;
+}
+
+#progress_bar {
+    background: url("../images/progress_bar_bg.png") no-repeat scroll 0 0 transparent;
+    height: 28px;
+    margin: 0;
+    text-align: center;
+    width: 210px;
+}
+#progress_bar_percentage {
+    color: #000000;
+    font-size: 1.167em;
+    font-weight: bold;
+    line-height: 28px;
+    position: relative;
+    z-index: 1;
+}
+#progress_bar_100 {
+    background: url("../images/progress_bar_full.png") no-repeat scroll 0 0 transparent;
+    height: 28px;
+    margin: 0;
+    text-align: center;
+    width: 210px;
+}
